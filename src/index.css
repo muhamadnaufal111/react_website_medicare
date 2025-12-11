@@ -1,0 +1,256 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E"),
+    linear-gradient(135deg, #e3f2fd 0%, #bbdefb 50%, #e8f5e9 100%);
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form {
+  overflow: hidden;
+}
+
+.bg-pink {
+  background-color: #20c997 !important; /* Contoh warna pink */
+  color: white; /* Pastikan teks di dalamnya putih */
+}
+
+.hover-bg-light:hover {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+[data-bs-theme="dark"] .hover-bg-light:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.display-6 {
+  font-size: 2rem;
+}
+
+@media (max-width: 767.98px) { /* Untuk layar di bawah md */
+  .mt-extra-large {
+    margin-top: 4rem !important; /* Kurangi margin di mobile */
+  }
+}
+
+.mt-extra-large {
+  margin-top: 100px; /* Sesuaikan nilai ini sesuai kebutuhan Anda */
+  /* Anda bisa menggunakan nilai lain seperti 8rem, 120px, dll. */
+}
+
+/* Atau jika Anda ingin responsif: */
+@media (min-width: 992px) { /* Untuk layar large (lg) ke atas */
+  .mt-lg-extra-large {
+    margin-top: 120px; /* Contoh: 120px untuk desktop */
+  }
+}
+
+/* Warna placeholder terang untuk mode gelap */
+.dark-placeholder::placeholder {
+  color: #aaa !important; /* atau #ccc untuk lebih terang */
+  opacity: 1; /* pastikan placeholder terlihat */
+}
+
+/* Warna placeholder gelap untuk mode terang (opsional) */
+.light-placeholder::placeholder {
+  color: #6c757d !important;
+  opacity: 1;
+}
+
+.custom-placeholder::placeholder {
+  font-size: 0.85rem; /* Ubah ukuran sesuai kebutuhan */
+  color: #aaa; /* Ubah warna kalau perlu */
+}
+
+/* Untuk animasi hover pada card layanan */
+.service-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Overlay biru transparan muncul dari atas */
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 123, 255, 0.15); /* Biru transparan */
+  transition: top 0.4s ease-in-out;
+  z-index: 0;
+}
+
+.service-card:hover::before {
+  top: 0;
+}
+
+/* Icon efek warna & animasi saat hover */
+.service-icon {
+  transition: color 0.3s ease, transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.service-card:hover .service-icon {
+  color: #dc3545 !important; /* Merah */
+  transform: rotate(-5deg); /* Efek putar ringan */
+}
+
+.card.bg-dark {
+  background-color: #000000 !important; /* Diubah menjadi hitam pekat */
+  border-color: #495057 !important; /* Warna border card */
+}
+
+/* Warna input dan textarea */
+/* Menggunakan bg-dark untuk input di mode gelap agar konsisten dengan card */
+.form-control.bg-dark { /* Targetkan form-control dengan bg-dark */
+  background-color: #000000 !important; /* Hitam pekat */
+  border-color: #495057 !important;
+  color: #f8f9fa !important; /* Teks terang */
+}
+
+.form-control.bg-dark:disabled {
+  background-color: #343a40 !important;
+  color: #adb5bd !important;
+}
+
+/* Warna link pada list-group */
+.list-group-item.bg-dark {
+  background-color: #000000 !important; /* Diubah menjadi hitam pekat */
+  border-color: #495057 !important;
+}
+
+.list-group-item.bg-dark:hover {
+  background-color: #495057 !important;
+}
+
+/* --- PERBAIKAN VISIBILITAS TEKS KECIL DI MODE GELAP --- */
+/* Targetkan teks muted, secondary, card-subtitle, dan form-label di dalam konteks gelap */
+/* Ini adalah selector yang lebih spesifik untuk memastikan override */
+.bg-dark .text-muted,
+.bg-dark .text-secondary,
+.bg-dark .card-subtitle,
+.bg-dark .form-label {
+  color: #f8f9fa !important; /* Warna teks terang untuk visibilitas */
+}
+
+/* Warna teks info agar lebih terlihat */
+.text-info {
+  color: #0dcaf0 !important; /* Warna default Bootstrap info */
+}
+
+/* Warna teks light agar lebih terlihat */
+.text-light {
+    color: #f8f9fa !important;
+}
+
+/* Pastikan elemen SVG ikon juga menyesuaikan warna teks */
+svg.bi {
+    fill: currentColor; /* Menggunakan warna teks parent */
+}
+
+/* Styling untuk placeholder foto profil */
+.rounded-circle.bg-secondary { /* Ini untuk mode gelap */
+    background-color: #495057 !important; /* Warna abu-abu gelap untuk lingkaran foto profil */
+}
+
+.rounded-circle.bg-secondary svg {
+    color: #adb5bd !important; /* Warna ikon di dalam lingkaran */
+}
+
+/* --- PENYESUAIAN BARU UNTUK MODE TERANG --- */
+/* Membuat card mode terang lebih jelas terlihat */
+.card.bg-light {
+  background-color: #f8f9fa !important; /* Warna latar belakang card terang */
+  border: 1px solid #dee2e6 !important; /* Tambahkan border tipis */
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important; /* Tambahkan sedikit shadow */
+}
+
+/* Menyesuaikan warna teks di mode terang agar lebih kontras */
+.card.bg-light .card-title,
+.card.bg-light .text-dark,
+.card.bg-light .fw-medium {
+  color: #212529 !important; /* Warna teks gelap */
+}
+
+.card.bg-light .text-secondary {
+  color: #6c757d !important; /* Warna teks sekunder yang lebih jelas */
+}
+
+/* Menyesuaikan input dan textarea di mode terang */
+.form-control.bg-light {
+  background-color: #e9ecef !important; /* Latar belakang input sedikit abu-abu */
+  border-color: #ced4da !important;
+  color: #212529 !important;
+}
+
+.form-control.bg-light:disabled {
+  background-color: #f1f3f5 !important;
+  color: #adb5bd !important;
+}
+
+/* Menyesuaikan list-group item di mode terang */
+.list-group-item.bg-light {
+  background-color: #f8f9fa !important;
+  border-color: #dee2e6 !important;
+  color: #007bff !important; /* Warna link default Bootstrap primary */
+}
+
+.list-group-item.bg-light:hover {
+  background-color: #e9ecef !important; /* Warna hover yang sedikit berbeda */
+}
+
+/* Styling untuk placeholder foto profil di mode terang */
+.rounded-circle.bg-light-subtle {
+    background-color: #e9ecef !important; /* Warna abu-abu terang untuk lingkaran foto profil */
+}
+
+.rounded-circle.bg-light-subtle svg {
+    color: #adb5bd !important; /* Warna ikon di dalam lingkaran */
+}
+

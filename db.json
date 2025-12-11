@@ -1,0 +1,810 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "email": "admin@gmail.com",
+      "name": "Admin Utama"
+    },
+    {
+      "id": "3",
+      "username": "budi@gmail.com",
+      "password": "pasien123",
+      "role": "patient",
+      "name": "Budi",
+      "email": "budi@gmail.com"
+    },
+    {
+      "id": "1753775187743",
+      "name": "naufal",
+      "email": "naufal@gmail.com",
+      "password": "naufal123",
+      "role": "patient",
+      "username": "naufal@gmail.com"
+    },
+    {
+      "id": "c256",
+      "name": "tikus",
+      "email": "tikus@gmail.com",
+      "password": "12345678",
+      "role": "patient",
+      "username": "tikus@gmail.com"
+    },
+    {
+      "id": "20a6",
+      "name": "raswa",
+      "email": "raswa@gmail.com",
+      "password": "12345678",
+      "role": "patient",
+      "username": "raswa@gmail.com"
+    },
+    {
+      "id": "5597",
+      "name": "rahmat",
+      "email": "rahmat@gmail.com",
+      "password": "12345678",
+      "role": "patient",
+      "username": "rahmat@gmail.com"
+    },
+    {
+      "id": "4e0d",
+      "name": "ilham wiguna",
+      "email": "ilham@gmail.com",
+      "password": "12345678",
+      "role": "patient",
+      "username": "ilham@gmail.com"
+    },
+    {
+      "id": "a2ff",
+      "name": "heru",
+      "email": "heru@gmail.com",
+      "password": "12345678",
+      "role": "patient",
+      "username": "heru@gmail.com"
+    },
+    {
+      "id": "7f10",
+      "username": "tirta@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "tirta@gmail.com",
+      "name": "dr. Tirta Mandira Hudhi",
+      "specialty": "Umum"
+    },
+    {
+      "id": "2261",
+      "username": "reisa@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "reisa@gmail.com",
+      "name": "dr. Reisa Broto Asmoro",
+      "specialty": "Umum"
+    },
+    {
+      "id": "32ab",
+      "username": "vito@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "vito@gmail.com",
+      "name": "dr. Vito Damay, Sp.JP (K), M.Kes, FIHA",
+      "specialty": "Kardiologi"
+    },
+    {
+      "id": "ef46",
+      "username": "dicky@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "dicky@gmail.com",
+      "name": "dr. Dicky Armein Hanafy",
+      "specialty": "Kardiologi"
+    },
+    {
+      "id": "450f",
+      "username": "patricia@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "patricia@gmail.com",
+      "name": "dr. Patricia Yohanna, Sp.DV",
+      "specialty": "Dermatologi"
+    },
+    {
+      "id": "b8a7",
+      "username": "yanti@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "yanti@gmail.com",
+      "name": "dr. Yanti Sukamto, Sp.KK",
+      "specialty": "Dermatologi"
+    },
+    {
+      "id": "17a2",
+      "username": "meta@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "meta@gmail.com",
+      "name": "dr. Meta Hanindita, Sp.A",
+      "specialty": "Pediatri"
+    },
+    {
+      "id": "1f9f",
+      "username": "dian@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "dian@gmail.com",
+      "name": "dr. Dian Pratamastuti, Sp.A",
+      "specialty": "Pediatri"
+    },
+    {
+      "id": "f3c1",
+      "username": "andri@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "andri@gmail.com",
+      "name": "dr. Andri Lubis, Sp.OT",
+      "specialty": "Ortopedi"
+    },
+    {
+      "id": "4e7f",
+      "username": "tri@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "tri@gmail.com",
+      "name": "dr. Tri Hanggono Achmad",
+      "specialty": "Ortopedi"
+    },
+    {
+      "id": "ea25",
+      "username": "yuda@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "yuda@gmail.com",
+      "name": "dr. Yuda Turana, Sp.S",
+      "specialty": "Neurologi"
+    },
+    {
+      "id": "aa17",
+      "username": "marbun@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "marbun@gmail.com",
+      "name": "dr. Marbun Nainggolan",
+      "specialty": "Neurologi"
+    },
+    {
+      "id": "8db6",
+      "username": "rina@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "rina@gmail.com",
+      "name": "dr. Rina La Distia Nora, Sp.M(K)",
+      "specialty": "Mata"
+    },
+    {
+      "id": "70c1",
+      "username": "adhi@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "adhi@gmail.com",
+      "name": "dr. Adhi Tjahjono, Sp.M",
+      "specialty": "Mata"
+    },
+    {
+      "id": "7860",
+      "username": "wardhana@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "wardhana@gmail.com",
+      "name": "dr. I Made Wardhana, Sp.THT-KL",
+      "specialty": "THT"
+    },
+    {
+      "id": "cb5b",
+      "username": "wibi@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "wibi@gmail.com",
+      "name": "dr. Wibi Riawan, Sp.THT-KL",
+      "specialty": "THT"
+    },
+    {
+      "id": "c38a",
+      "username": "nova@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "nova@gmail.com",
+      "name": "dr. Nova Riyanti Yusuf, Sp.KJ",
+      "specialty": "Psikiatri"
+    },
+    {
+      "id": "5385",
+      "username": "andripsikiatri@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "andripsikiatri@gmail.com",
+      "name": "dr. Andri, Sp.KJ (K)",
+      "specialty": "Psikiatri"
+    },
+    {
+      "id": "edfd",
+      "username": "eka@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "eka@gmail.com",
+      "name": "dr. Eka Wahjoepramono, Sp.BS",
+      "specialty": "Bedah"
+    },
+    {
+      "id": "f5ff",
+      "username": "tompi@gmail.com",
+      "password": "dokter123",
+      "role": "doctor",
+      "email": "tompi@gmail.com",
+      "name": "dr. Tompi, Sp.BP-RE",
+      "specialty": "Bedah"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "e545",
+      "doctor": "Dr. Anne Hathaway",
+      "specialty": "Psychology",
+      "date": "2025-08-05",
+      "time": "18:00",
+      "reason": "periksa rutin",
+      "location": "Ruang 8, Gedung Y",
+      "notes": "kndkhuiehfjk",
+      "status": "Dibatalkan",
+      "userId": "1753775187743",
+      "cancelReason": "maaf\n",
+      "cancelledBy": "Admin"
+    },
+    {
+      "patientName": "rahmat",
+      "patientEmail": "rahmat@gmail.com",
+      "patientPhone": "08765434567",
+      "doctor": "Dr. Michael",
+      "specialty": "Dermatologi",
+      "date": "2025-08-08",
+      "time": "16:26",
+      "reason": "periksa mingguan",
+      "notes": "kfkdjhfkewhurhe",
+      "status": "Selesai",
+      "location": "Ruang 5, Gedung J",
+      "userId": "5597",
+      "id": "a435"
+    },
+    {
+      "patientName": "rahmat",
+      "patientEmail": "rahmat@gmail.com",
+      "doctor": "Dr. David Lee",
+      "specialty": "Dentistry",
+      "date": "2025-08-13",
+      "time": "11:38",
+      "reason": "jdjnsjna",
+      "notes": "jwdjdbjwbd",
+      "status": "Dibatalkan",
+      "location": "Ruang 5, Gedung J",
+      "userId": "5597",
+      "id": "c762",
+      "cancelReason": "maaf sibuk",
+      "cancelledBy": "Admin"
+    },
+    {
+      "patientName": "rahmat",
+      "patientEmail": "rahmat@gmail.com",
+      "doctor": "Dr. Anne Hathaway",
+      "specialty": "Psychology",
+      "date": "2025-08-06",
+      "time": "12:51",
+      "reason": "periksa otak nya geser",
+      "notes": "gada",
+      "status": "Selesai",
+      "location": "Ruang 5, Gedung J",
+      "userId": "5597",
+      "id": "8e39"
+    },
+    {
+      "patientName": "rahmat",
+      "patientEmail": "rahmat@gmail.com",
+      "doctor": "Dr. David Lee",
+      "specialty": "Dentistry",
+      "date": "2025-08-04",
+      "time": "09:00",
+      "reason": "periksa rutin",
+      "notes": "gada",
+      "status": "Selesai",
+      "location": "Ruang 5, Gedung J",
+      "userId": "5597",
+      "id": "04a5"
+    },
+    {
+      "patientName": "naufal",
+      "patientEmail": "naufal@gmail.com",
+      "doctor": "Dr. Michael",
+      "specialty": "Dermatologi",
+      "date": "2025-08-04",
+      "time": "14:00",
+      "reason": "namnkewhrj",
+      "notes": "dnmandmanjwh\n",
+      "status": "Selesai",
+      "location": "Ruang 5, Gedung J",
+      "userId": "1753775187743",
+      "id": "30ef"
+    },
+    {
+      "patientName": "rahmat",
+      "patientEmail": "rahmat@gmail.com",
+      "doctor": "Dr. Sarah",
+      "specialty": "Kardiologi",
+      "date": "2025-08-04",
+      "time": "07:00",
+      "reason": "nxanxba",
+      "notes": "mndrgdhksjkd",
+      "status": "Selesai",
+      "location": "Ruang 5, Gedung J",
+      "userId": "5597",
+      "id": "0a6d"
+    },
+    {
+      "patientName": "ilham wiguna",
+      "patientEmail": "ilham@gmail.com",
+      "doctor": "Dr. Anne Hathaway",
+      "specialty": "Psychology",
+      "date": "2025-08-06",
+      "time": "10:06",
+      "reason": "pemeriksaan rutin",
+      "notes": "gada",
+      "status": "Selesai",
+      "location": "Ruang 5, Gedung J",
+      "userId": "4e0d",
+      "id": "2b12"
+    },
+    {
+      "id": "75b7",
+      "doctor": "Dr. Michael",
+      "specialty": "Dermatologi",
+      "date": "2025-08-08",
+      "time": "13:00",
+      "reason": "dsjhdjsenf",
+      "location": "Ruang 8, Gedung T",
+      "notes": "nfnhebfjhjsh",
+      "status": "Menunggu Persetujuan",
+      "userId": "4e0d"
+    },
+    {
+      "id": "3c53",
+      "doctor": "Dr. Emily Davis",
+      "specialty": "Dermatologi",
+      "date": "2025-08-08",
+      "time": "03:00",
+      "reason": "periksa rutin",
+      "location": "ruang 1, gedung B",
+      "notes": "gada",
+      "status": "Terjadwal",
+      "userId": "1753775187743"
+    },
+    {
+      "id": "94c1",
+      "doctor": "Dr. David Lee",
+      "specialty": "General Practitioner",
+      "date": "2025-08-13",
+      "time": "03:00",
+      "reason": "periksa",
+      "location": "ruang 1, gedung B",
+      "notes": "gada",
+      "status": "Selesai",
+      "userId": "a2ff"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "2",
+      "name": "Dr. Ami",
+      "specialty": "Umum",
+      "availability": [
+        "Senin Pagi",
+        "Rabu Sore"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Dr. Budi",
+      "specialty": "Gigi",
+      "availability": [
+        "Selasa Pagi",
+        "Kamis Siang"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "profile_admin",
+      "userId": "1",
+      "name": "Admin Utama",
+      "email": "admin@gmail.com",
+      "phone": "",
+      "address": "",
+      "joinedSince": "1 Januari 2023",
+      "role": "admin"
+    },
+    {
+      "id": "profile_budi",
+      "userId": "3",
+      "name": "Budi",
+      "email": "budi@gmail.com",
+      "phone": "087654321000",
+      "dob": "1990-01-01",
+      "address": "Jl. Mawar No. 5",
+      "gender": "Laki-laki",
+      "occupation": "Wiraswasta",
+      "medicalHistory": "Tidak ada",
+      "emergencyContact": "Istri Budi - 087654321001",
+      "allergies": "Debu",
+      "joinedSince": "10 Maret 2024",
+      "totalVisits": 3,
+      "activePrescriptions": 1,
+      "upcomingAppointments": 0,
+      "lastVisitDate": "2024-07-20",
+      "role": "patient"
+    },
+    {
+      "id": "profile_naufal",
+      "userId": "1753775187743",
+      "name": "Naufal",
+      "email": "naufal@gmail.com",
+      "phone": "087718143267",
+      "dob": "1995-03-20",
+      "address": "Jl. Merdeka No. 10",
+      "gender": "Laki-laki",
+      "occupation": "Mahasiswa",
+      "medicalHistory": "Tidak ada.",
+      "emergencyContact": "Ibu Naufal - 081234567891",
+      "allergies": "Tidak ada",
+      "joinedSince": "29 Juli 2025",
+      "totalVisits": 5,
+      "activePrescriptions": 2,
+      "upcomingAppointments": 1,
+      "lastVisitDate": "2024-07-28",
+      "role": "patient"
+    },
+    {
+      "id": "f241",
+      "userId": "3cd1",
+      "phone": "",
+      "address": "",
+      "joinedSince": "31 Juli 2025",
+      "profilePicUrl": "https://via.placeholder.com/128/cccccc/000000?text=?"
+    },
+    {
+      "id": "9c64",
+      "userId": "ed9c",
+      "phone": "",
+      "address": "",
+      "joinedSince": "31 Juli 2025",
+      "profilePicUrl": "https://via.placeholder.com/128/cccccc/000000?text=?"
+    },
+    {
+      "id": "a5fe",
+      "userId": "c256",
+      "role": "patient",
+      "name": "tikus",
+      "email": "tikus@gmail.com",
+      "phone": "",
+      "address": "",
+      "joinedSince": "31 Juli 2025",
+      "profilePicUrl": "https://via.placeholder.com/128/cccccc/000000?text=T",
+      "dob": "",
+      "gender": "",
+      "occupation": "",
+      "medicalHistory": "",
+      "emergencyContact": "",
+      "allergies": "",
+      "totalVisits": 0,
+      "activePrescriptions": 0,
+      "upcomingAppointments": 0,
+      "lastVisitDate": ""
+    },
+    {
+      "id": "f940",
+      "userId": "20a6",
+      "role": "patient",
+      "name": "raswa",
+      "email": "raswa@gmail.com",
+      "phone": "",
+      "address": "",
+      "joinedSince": "31 Juli 2025",
+      "profilePicUrl": "https://via.placeholder.com/128/cccccc/000000?text=R",
+      "dob": "",
+      "gender": "perempuan",
+      "occupation": "",
+      "medicalHistory": "",
+      "emergencyContact": "",
+      "allergies": "",
+      "totalVisits": 0,
+      "activePrescriptions": 0,
+      "upcomingAppointments": 0,
+      "lastVisitDate": ""
+    },
+    {
+      "id": "4d01",
+      "userId": "5597",
+      "role": "patient",
+      "name": "rahmat",
+      "email": "rahmat@gmail.com",
+      "phone": "0835637423774",
+      "address": "Bandung Kota",
+      "joinedSince": "31 Juli 2025",
+      "profilePicUrl": "https://via.placeholder.com/128/cccccc/000000?text=R",
+      "dob": "17-02-2003",
+      "gender": "laki-laki",
+      "occupation": "Manajer",
+      "medicalHistory": "gada",
+      "emergencyContact": "0899993746238- sodara",
+      "allergies": "gada",
+      "totalVisits": 0,
+      "activePrescriptions": 0,
+      "upcomingAppointments": 0,
+      "lastVisitDate": ""
+    },
+    {
+      "id": "6519",
+      "userId": "4e0d",
+      "role": "patient",
+      "name": "ilham wiguna",
+      "email": "ilham@gmail.com",
+      "phone": "082345545672",
+      "address": "Indramayu Desa Plumbon",
+      "joinedSince": "5 Agustus 2025",
+      "profilePicUrl": "https://via.placeholder.com/128/cccccc/000000?text=I",
+      "dob": "4-04-2004",
+      "gender": "laki-laki",
+      "occupation": "Programer",
+      "medicalHistory": "gada",
+      "emergencyContact": "08942737636 - adek",
+      "allergies": "alergi udang",
+      "totalVisits": 0,
+      "activePrescriptions": 0,
+      "upcomingAppointments": 0,
+      "lastVisitDate": "2025-08-05"
+    },
+    {
+      "id": "3e80",
+      "userId": "a2ff",
+      "role": "patient",
+      "name": "heru",
+      "email": "heru@gmail.com",
+      "phone": "084347378473",
+      "address": "Bandung Kota",
+      "joinedSince": "7 Agustus 2025",
+      "profilePicUrl": "https://via.placeholder.com/128/cccccc/000000?text=H",
+      "dob": "17-02-2003",
+      "gender": "laki-laki",
+      "occupation": "Programer",
+      "medicalHistory": "gada",
+      "emergencyContact": "0899993746238- sodara",
+      "allergies": "gada",
+      "totalVisits": 0,
+      "activePrescriptions": 0,
+      "upcomingAppointments": 0,
+      "lastVisitDate": ""
+    },
+    {
+      "id": "e856",
+      "userId": "7f10",
+      "phone": "08355463623",
+      "schedule": "senin-jumat 08.00-16.00",
+      "experience": "5 tahun",
+      "specialty": "Umum",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "0d83",
+      "userId": "2261",
+      "phone": "08653553273",
+      "schedule": "senin-jumat 13.00-16.00",
+      "experience": "10 tahun",
+      "specialty": "Umum",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "d89b",
+      "userId": "32ab",
+      "phone": "08645636747",
+      "schedule": "senin-jumat 09:00-13:00",
+      "experience": "15 tahun",
+      "specialty": "Kardiologi",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "177e",
+      "userId": "ef46",
+      "phone": "0864511111",
+      "schedule": "senin-jumat 14:00-17:00",
+      "experience": "20 tahun",
+      "specialty": "Kardiologi",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "be0a",
+      "userId": "450f",
+      "phone": "086452535642",
+      "schedule": "senin-jumat 08:00-11:00",
+      "experience": "8 tahun",
+      "specialty": "Dermatologi",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "31b8",
+      "userId": "b8a7",
+      "phone": "08677384623",
+      "schedule": "senin-jumat 13:00-16:00",
+      "experience": "12 tahun",
+      "specialty": "Dermatologi",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "fd34",
+      "userId": "17a2",
+      "phone": "08677787865",
+      "schedule": "senin-jumat 09:00-12:00",
+      "experience": "10 tahun",
+      "specialty": "Pediatri",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "7d81",
+      "userId": "1f9f",
+      "phone": "08675559937",
+      "schedule": "senin-jumat 14:00-17:00",
+      "experience": "7 tahun",
+      "specialty": "Pediatri",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "b5b2",
+      "userId": "f3c1",
+      "phone": "08675122398",
+      "schedule": "senin-jumat 08:00-12:00",
+      "experience": "15 tahun",
+      "specialty": "Ortopedi",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "6d6f",
+      "userId": "4e7f",
+      "phone": "086751263733",
+      "schedule": "senin-jumat 13:00-17:00",
+      "experience": "15 tahun",
+      "specialty": "Ortopedi",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "12e8",
+      "userId": "ea25",
+      "phone": "0855873642",
+      "schedule": "senin-jumat 08:00-12:00",
+      "experience": "15 tahun",
+      "specialty": "Neurologi",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "7934",
+      "userId": "aa17",
+      "phone": "08566376389",
+      "schedule": "senin-jumat 13:00-16:00",
+      "experience": "18 tahun",
+      "specialty": "Neurologi",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "27b2",
+      "userId": "8db6",
+      "phone": "08561234567",
+      "schedule": "senin-jumat 09:00-13:00",
+      "experience": "14 tahun",
+      "specialty": "Mata",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "2748",
+      "userId": "70c1",
+      "phone": "0856178654",
+      "schedule": "senin-jumat 14:00-17:00",
+      "experience": "10 tahun",
+      "specialty": "Mata",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "bfe4",
+      "userId": "7860",
+      "phone": "0856789123",
+      "schedule": "senin-jumat 08:00-11:00",
+      "experience": "13 tahun",
+      "specialty": "THT",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "981e",
+      "userId": "cb5b",
+      "phone": "0878988668",
+      "schedule": "senin-jumat 13:00-16:00",
+      "experience": "9 tahun",
+      "specialty": "THT",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "10d5",
+      "userId": "c38a",
+      "phone": "08678912345",
+      "schedule": "senin-jumat 10.00-13.00",
+      "experience": "15 tahun",
+      "specialty": "Psikiatri",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "3f15",
+      "userId": "5385",
+      "phone": "08622347785",
+      "schedule": "senin-jumat 14.00-17.00",
+      "experience": "17 tahun",
+      "specialty": "Psikiatri",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "2557",
+      "userId": "edfd",
+      "phone": "0868898645",
+      "schedule": "senin-jumat 08.00-12.00",
+      "experience": "25 tahun",
+      "specialty": "Bedah",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    },
+    {
+      "id": "1ed8",
+      "userId": "f5ff",
+      "phone": "08123456733",
+      "schedule": "senin-jumat 13.00-16.00",
+      "experience": "10 tahun",
+      "specialty": "Bedah",
+      "status": "Aktif",
+      "joinedSince": "07 Agustus 2025"
+    }
+  ],
+  "activities": [
+    {
+      "id": "1",
+      "userId": "1753775187743",
+      "type": "patient",
+      "message": "Selamat datang di MediCare, {patientName}!",
+      "time": "baru saja"
+    },
+    {
+      "id": "431c",
+      "userId": "5597",
+      "type": "patient",
+      "message": "Selamat datang di MediCare, {patientName}!",
+      "time": "baru saja"
+    }
+  ]
+}
